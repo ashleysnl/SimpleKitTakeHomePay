@@ -16,6 +16,8 @@
 .sk-v2[data-v2-calculator="take-home-pay-calculator"] .calculator-layout { gap:1.25rem; }
 .sk-v2[data-v2-calculator="take-home-pay-calculator"] .headline-grid,.sk-v2[data-v2-calculator="take-home-pay-calculator"] .result-grid { gap:.75rem; }
 .sk-v2[data-v2-calculator="take-home-pay-calculator"] .result-summary-card { background:var(--v2-blue-soft); color:var(--v2-navy); border-color:var(--v2-border); }
+.sk-v2[data-v2-calculator="take-home-pay-calculator"] .form-field { min-width:0; }
+.sk-v2[data-v2-calculator="take-home-pay-calculator"] .form-field :is(input,select) { width:100%; max-width:100%; min-width:0; }
 @media(min-width:64rem) {
  .sk-v2[data-v2-calculator="take-home-pay-calculator"] .calculator-layout { display:grid; grid-template-columns:minmax(0,1.05fr) minmax(18rem,.95fr); align-items:start; }
 }
