@@ -20,7 +20,7 @@
 .sk-v2[data-v2-calculator="take-home-pay-calculator"] .form-field :is(input,select) { width:100%; max-width:100%; min-width:0; }
 /* Keep the enlarged comparison table inside its keyboard-scrollable region in WebKit. */
 .sk-v2[data-v2-calculator="take-home-pay-calculator"] .table-shell { min-width:0; contain:inline-size paint; overflow:hidden; }
-.sk-v2[data-v2-calculator="take-home-pay-calculator"] .table-scroll { width:100%; min-width:0; }
+.sk-v2[data-v2-calculator="take-home-pay-calculator"] .table-scroll { width:100%; min-width:0; position:relative; }
 @media(min-width:64rem) {
  .sk-v2[data-v2-calculator="take-home-pay-calculator"] .calculator-layout { display:grid; grid-template-columns:minmax(0,1.05fr) minmax(18rem,.95fr); align-items:start; }
 }
